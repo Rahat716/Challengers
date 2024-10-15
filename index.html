@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>streamease</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+</head>
+<body>
+    <!--Streamease Streaming Project-->
+    <!--Header-->
+    <div>
+        <header id="header" class="d-flex justify-content-between text-light shadow-lg" style="background-color: rgb(21, 25, 29); width: 100%; height: 55px; position: fixed; top: 0%; z-index: 10;">
+            <div class="d-flex ms-3">
+                <img id="logo" src="./Images/logo.png" alt="" class="mt-2" style="height: 40px;">
+                <h3 class="mt-2">Streamease</h3>
+            </div>
+
+            <div class="d-flex align-items-center ">
+                <input type="search" placeholder="Search" class="bg-dark text-light me-2" style="border: none;">
+                <a href="#"><i class="fa-solid fa-magnifying-glass me-5"></i></a>
+                <a href="#" id="login" class="mb-1 me-3" style="text-decoration: none; font-size: 14px; font-weight: bold;">Login</a>
+            </div>
+        </header>
+    </div>
+    <!--Navigation Bars-->
+    <div id="navigations" class="d-flex text-center align-items-center justify-content-center" style="width: 100%; height: 47px; background: #272727; position: fixed; top: 93vh;">
+        <div>
+            <a href="#carouselExampleControls"><i class="fa-solid fa-house" style="font-size: 20px; margin-left: 17px; margin-right: 25px;"></i></a>
+        </div>
+
+        <div>
+            <a href="#live_tv"><i class="fa-solid fa-tv" style="font-size: 20px; margin-left: 17px; margin-right: 25px;"></i></a>
+        </div>
+
+        <div>
+            <a href="#explore"><i class="fa-solid fa-play" style="font-size: 20px; margin-left: 22px; margin-right: 25px;"></i></a>
+        </div>
+
+        <div>
+            <a href="#favorites"><i class="fa-solid fa-heart" style="font-size: 20px; margin-left: 22px; margin-right: 25px;"></i></a>
+        </div>
+
+        <div>
+            <a href="#more"><i class="fa-solid fa-bars" style="font-size: 20px; margin-left: 20px;"></i></a>
+        </div>
+    </div>
+</div>
+     <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top: 56px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://canvas.tamashaweb.com/jazzlive/uploads/slider/TMSH-1723200335889.webp?id=77" class="d-block w-100" style="height: 350px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://canvas.tamashaweb.com/jazzlive/uploads/slider/TMSH-1723464776736.webp?id=56" class="d-block w-100" style="height: 350px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://canvas.tamashaweb.com/jazzlive/uploads/slider/TMSH-1723465392910.webp?id=56" class="d-block w-100" style="height: 350px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://canvas.tamashaweb.com/jazzlive/uploads/slider/TMSH-1722260984851.webp?id=96" class="d-block w-100" style="height: 350px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://canvas.tamashaweb.com/jazzlive/uploads/slider/TMSH-1723465586533.webp?id=78" class="d-block w-100" style="height: 350px;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div>
+    <!--Subscription-->
+    <h5 class="text-light p-2 ms-3 mt-4">Subscription</h5>
+    <div class="d-flex justify-content-center align-content-center text-light">
+        <div style="margin: 16px 30px 0 0;">
+            <img src="https://static.vecteezy.com/system/resources/previews/019/956/198/non_2x/netflix-transparent-netflix-free-free-png.png" alt="" style="width: 115px; height: 115px; border-radius: 50%;">
+            <a href="#" style="text-decoration: none;">Netflix</a>
+        </div>
+
+        <div style="margin: 40px 30px 0 0;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXyLNwBktHQkq8BFxyOXLwmVMhCD2s3gbmYw&s" alt="" style="width: 65px; height: 65px; border-radius: 50%;">
+            <a href="#" style="text-decoration: none; margin-left: 10px;">Prime Video</a>
+        </div>
+
+        <div style="margin: 38px 30px 0 0;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgG7lN90EetZpz071CLjfL7mUx0U6DUzGw_g&s" alt="" style="width: 70px; height: 70px; border-radius: 50%;">
+            <a href="#" style="text-decoration: none; margin-left: 10px;">Tamasha</a>
+        </div>
+
+        <div style="margin: 38px 30px 0 0;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIucfnePLFHPCW5pEO9opd0YWZly5V9A7iyQ&s" alt="" style="width: 65px; height: 65px; border-radius: 50%;">
+            <a href="#" style="text-decoration: none; margin-left: 10px;">Tapmad</a>
+        </div>
+    </div>
+    <!--Streaming Live-TV-->
+    <div>
+        <div id="live_tv" class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">Live TV</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/TMSH-1724066835398.webp?id=85" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/TMSH-1721798577417.webp?id=65" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/TMSH-1724066748941.webp?id=50" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/1707716722.webp?id=100" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/TMSH-1720189601948.webp?id=21" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/TMSH-1720189788134.webp?id=100" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+<br>
+    <!--Streaming Dramas-->
+    <div>
+        <div id="explore" class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">Pakistani Dramas</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1702383041.webp?id=72" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1703222055.webp?id=38" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1656607741.webp?id=31" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1701347693.webp?id=20" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1701347207.webp?id=97" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1702654583.webp?id=36" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+<br>
+    <!--Streaming Bollywood-->
+    <div id="more">
+        <div class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">Bollywood Hits</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1682767173.webp?id=41" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1674392796.webp?id=42" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1716420183.webp?id=24" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1673976084.webp?id=22" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1708059883.webp?id=31" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1695299622.webp?id=49" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+    <!--Streaming Cartoon-->
+    <div>
+        <div class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">Cartoon</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1724093867830.webp?id=46" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1724048253073.webp?id=69" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1724046059600.webp?id=95" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1723862446116.webp?id=78" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1722979299768.webp?id=31" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1722443513472.webp?id=43" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+    <!--Streaming News-->
+    <div>
+        <div class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">News</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/1707716978.webp?id=57" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/poster/channel-24-live.webp?id=98" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/1707716936.webp?id=100" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/poster/cnn-news-live.webp?id=10" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/poster/aaj-news-live.webp?id=39" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/poster/such-tv-live.webp?id=11" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+    <!--Streaming Action-->
+    <div>
+        <div class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">Adventure</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1667906259.webp?id=26" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1712041516.webp?id=47" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1701804609.webp?id=25" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1703122602.webp?id=35" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1716456580.webp?id=79" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img class="img" src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1716449510.webp?id=88" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+    <!--Streaming WEb_Series-->
+    <div>
+        <div class="d-flex justify-content-between">
+            <h4 class="text-light p-3 ms-2 mt-2">Web Shows</h4>
+            <a href="" class="p-3 me-2 mt-4" style="color: #838383; text-decoration: none;">View More</a>  
+        </div>
+    <div class="d-flex justify-content-around">  
+        <div class="ms-3">
+                <img src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/TMSH-1722960323009.webp?id=40" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1715812105.webp?id=48" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1715811916.webp?id=28" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1715814995.webp?id=42" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2">
+                <img src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1715092318.webp?id=79" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+
+            <div class="ms-2 me-3">
+                <img src="https://canvas.tamashaweb.com/jazzlive/uploads/programs/1715196065.webp?id=37" alt="" style="height: 200px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div id="footer" class="d-flex justify-content-between" style="border-top: 2px solid rgb(0, 0, 0); margin: 20px 0 0 0;">
+        <div class="mt-5">
+            <a href="#" class="ms-5 me-4" style="text-decoration: none;">Contact Us</a>
+            <a href="#" class="me-4" style="text-decoration: none;">Privacy</a>
+            <a href="#" class="me-4" style="text-decoration: none;">Terms of Use</a>
+            <a href="#" class="me-4" style="text-decoration: none;">Feedback</a>
+            <a href="#" class="me-4" style="text-decoration: none;">Sitemap</a>
+        </div>
+
+        <div class="me-5 mt-3">
+            <p style="color: #838383; font-size: 12px;">Watch on your phone or tablet</p>
+            <img src="https://tamashaweb.com/images/googleplay.png" alt="" style="height: 30px;">
+            <img src="https://tamashaweb.com/images/appstore.png" alt="" style="height: 30px;">
+            <img src="https://tamashaweb.com/images/huawei.png" alt="" style="height: 30px;">
+            <p class="mt-5" style="color: #838383; font-size: 14px;">&copy; All rights and reserved has Rahat Qazi</p>
+        </div>
+    </div>
+       
+    
+</body>
+<script src="./jquery-3.7.1.js"></script>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
