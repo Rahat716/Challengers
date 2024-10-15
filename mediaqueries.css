@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Medium Screens */
+/* @media (max-width: 900px) {
+    #header {
+        height: 40px !important;
+        font-size: 10 !important;
+    }
+    #logo {
+        height: 30px !important;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #login {
+        font-size: 18px;
+    }
+} */
+
+/* Small Screen */
+@media (max-width: 600px) {
+    header {
+        height: 40px !important;
+        font-size: 10px;
+    }
+    #logo {
+        height: 25px !important;
+    }
+    h3 {
+        font-size: 18px;
+    } 
+    #login {
+        font-size: 12px !important;
+    }
+    /* Navigations */
+    #navigations {
+        height: 40px !important;
+    }
+    #carouselExampleControls {
+        font-size: 15px !important;
+    }
+}
+/* Extra Small Screen */
+@media (max-width: 380px) {
+    header {
+        height: 35px !important;
+        font-size: 8px;
+    }
+    #logo {
+        height: 20px !important;
+    }
+    h3 {
+        font-size: 15px;
+    } 
+    #login {
+        font-size: 10px !important;
+    }
+    /* Navigations */
+    #navigations {
+        height: 35px !important;
+        font-size: 10px !important;
+    }
+    #carouselExampleControls {
+        font-size: 12px !important;
+    }
+}
+/* X Extra Small */
+@media (max-width: 300px) {
+    header {
+        height: 35px !important;
+        font-size: 6px;
+    }
+    #logo {
+        height: 12px !important;
+    }
+    h3 {
+        font-size: 12px;
+    } 
+    #login {
+        font-size: 8px !important;
+    }
+    /* Navigations */
+    #navigations {
+        height: 35px !important;
+        font-size: 6px !important;
+    }
+    #carouselExampleControls {
+        font-size: 12px !important;
+    }
+}
